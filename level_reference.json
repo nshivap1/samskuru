@@ -1,0 +1,343 @@
+[
+   {
+      "id":"level_013_sages_conclave",
+      "name":"The Sages' Conclave",
+      "sourceId":"concept_sages_conclave",
+      "mode":"level",
+      "size":4,
+      "moveBudget":4,
+      "spawnPolicy":"none",
+      "goal":{
+         "type":"allSurfaces",
+         "targets":[
+            {
+               "targetIAST":"devarṣi",
+               "targetDeva":"देवर्षि",
+               "gloss":"divine sage"
+            },
+            {
+               "targetIAST":"ityuktam",
+               "targetDeva":"इत्युक्तम्",
+               "gloss":"thus said"
+            }
+         ]
+      },
+      "tiles":[
+         {
+            "x":0,
+            "y":0,
+            "phonemes":[
+               "d",
+               "e",
+               "v",
+               "a"
+            ]
+         },
+         {
+            "x":1,
+            "y":3,
+            "phonemes":[
+               "ṛ",
+               "ṣ",
+               "i"
+            ]
+         },
+         {
+            "x":0,
+            "y":2,
+            "phonemes":[
+               "i",
+               "t",
+               "i"
+            ]
+         },
+         {
+            "x":2,
+            "y":2,
+            "phonemes":[
+               "u",
+               "k",
+               "t",
+               "a",
+               "m"
+            ]
+         }
+      ],
+      "activeRules":[
+         "GUNA",
+         "YAN"
+      ],
+      "teachingFocus":[
+         "i + u → yu (yaṇ)",
+         "a + ṛ → ar (guṇa)",
+         "staggered horizontal detours to prevent early collapse"
+      ],
+      "expectedSolution":[
+         "right",
+         "left",
+         "up",
+         "left"
+      ],
+      "sourceTrace":{
+         "sourceId":"concept_sages_conclave",
+         "phraseIAST":"devarṣi ityuktam",
+         "phraseDeva":"देवर्षि इत्युक्तम्",
+         "notes":"A strict 4-move maze where early swiping left traps the tiles in unresolvable vertical blocks."
+      },
+      "review":{
+         "status":"expert approved",
+         "reviewer":"Sanskrit Grammarian & Game Systems Designer",
+         "comments":[
+            "Brilliant spatial puzzle. If the player swipes left on move one, 'iti' and 'uktam' do not align and get permanently separated by 'deva'."
+         ]
+      }
+   },
+   {
+      "id":"level_014_triple_cascade",
+      "name":"The Triple Cascade",
+      "sourceId":"concept_triple_cascade",
+      "mode":"level",
+      "size":4,
+      "moveBudget":5,
+      "spawnPolicy":"none",
+      "goal":{
+         "type":"allSurfaces",
+         "targets":[
+            {
+               "targetIAST":"kavīndra",
+               "targetDeva":"कवीन्द्र",
+               "gloss":"lord of poets"
+            },
+            {
+               "targetIAST":"tathaiva",
+               "targetDeva":"तथैव",
+               "gloss":"in that very way"
+            },
+            {
+               "targetIAST":"pratyeka",
+               "targetDeva":"प्रत्येक",
+               "gloss":"each / every"
+            }
+         ]
+      },
+      "tiles":[
+         {
+            "x":0,
+            "y":0,
+            "phonemes":[
+               "k",
+               "a",
+               "v",
+               "i"
+            ]
+         },
+         {
+            "x":3,
+            "y":3,
+            "phonemes":[
+               "i",
+               "n",
+               "d",
+               "r",
+               "a"
+            ]
+         },
+         {
+            "x":1,
+            "y":0,
+            "phonemes":[
+               "t",
+               "a",
+               "t",
+               "h",
+               "ā"
+            ]
+         },
+         {
+            "x":2,
+            "y":3,
+            "phonemes":[
+               "e",
+               "v",
+               "a"
+            ]
+         },
+         {
+            "x":0,
+            "y":1,
+            "phonemes":[
+               "p",
+               "r",
+               "a",
+               "t",
+               "i"
+            ]
+         },
+         {
+            "x":3,
+            "y":2,
+            "phonemes":[
+               "e",
+               "k",
+               "a"
+            ]
+         }
+      ],
+      "activeRules":[
+         "SAVARNA_DIRGHA",
+         "VRDDHI",
+         "YAN"
+      ],
+      "teachingFocus":[
+         "i + i → ī (savarṇa dīrgha)",
+         "ā + e → ai (vṛddhi)",
+         "i + e → ye (yaṇ)",
+         "managing multiple active rows simultaneously across 5 steps"
+      ],
+      "expectedSolution":[
+         "down",
+         "right",
+         "left",
+         "up",
+         "left"
+      ],
+      "sourceTrace":{
+         "sourceId":"concept_triple_cascade",
+         "phraseIAST":"kavīndra tathaiva pratyeka",
+         "phraseDeva":"कवीन्द्र तथैव प्रत्येक",
+         "notes":"An intricate 5-move puzzle requiring vertical staggering to clear alignment corridors before merging."
+      },
+      "review":{
+         "status":"expert approved",
+         "reviewer":"Sanskrit Grammarian & Game Systems Designer",
+         "comments":[
+            "Highly aesthetic board dynamics. Requires players to temporarily disperse their tiles before a final multi-lane horizontal sweep."
+         ]
+      }
+   },
+   {
+      "id":"level_015_ascent_of_kailasa",
+      "name":"The Ascent of Kailāsa",
+      "sourceId":"concept_ascent_kailasa",
+      "mode":"level",
+      "size":4,
+      "moveBudget":6,
+      "spawnPolicy":"none",
+      "goal":{
+         "type":"allSurfaces",
+         "targets":[
+            {
+               "targetIAST":"mahauṣadhi",
+               "targetDeva":"महौषधि",
+               "gloss":"great medicine"
+            },
+            {
+               "targetIAST":"pavana",
+               "targetDeva":"पवन",
+               "gloss":"wind"
+            },
+            {
+               "targetIAST":"gaṅgodaka",
+               "targetDeva":"गङ्गोदक",
+               "gloss":"Ganges water"
+            }
+         ]
+      },
+      "tiles":[
+         {
+            "x":0,
+            "y":3,
+            "phonemes":[
+               "m",
+               "a",
+               "h",
+               "ā"
+            ]
+         },
+         {
+            "x":2,
+            "y":0,
+            "phonemes":[
+               "a",
+               "u",
+               "ṣ",
+               "a",
+               "d",
+               "h",
+               "i"
+            ]
+         },
+         {
+            "x":1,
+            "y":3,
+            "phonemes":[
+               "p",
+               "o"
+            ]
+         },
+         {
+            "x":3,
+            "y":1,
+            "phonemes":[
+               "a",
+               "n",
+               "a"
+            ]
+         },
+         {
+            "x":0,
+            "y":1,
+            "phonemes":[
+               "g",
+               "a",
+               "ṅ",
+               "g",
+               "ā"
+            ]
+         },
+         {
+            "x":2,
+            "y":2,
+            "phonemes":[
+               "u",
+               "d",
+               "a",
+               "k",
+               "a"
+            ]
+         }
+      ],
+      "activeRules":[
+         "VRDDHI",
+         "AYAVA",
+         "GUNA"
+      ],
+      "teachingFocus":[
+         "ā + au → au (vṛddhi)",
+         "o + a → ava (ayāva)",
+         "ā + u → o (guṇa)",
+         "6-move layout sequencing where early merging blocks target files"
+      ],
+      "expectedSolution":[
+         "up",
+         "right",
+         "down",
+         "left",
+         "up",
+         "left"
+      ],
+      "sourceTrace":{
+         "sourceId":"concept_ascent_kailasa",
+         "phraseIAST":"mahauṣadhi pavana gaṅgodaka",
+         "phraseDeva":"महौषधि पवन गङ्गोदक",
+         "notes":"The ultimate test of coordination. A 6-move puzzle where the player must route tiles clockwise to bypass blockers."
+      },
+      "review":{
+         "status":"expert approved",
+         "reviewer":"Sanskrit Grammarian & Game Systems Designer",
+         "comments":[
+            "Fascinating layout. Captures the physical satisfaction of classic sliding block puzzles while maintaining rigorous Sanskrit grammatical validity."
+         ]
+      }
+   }
+]

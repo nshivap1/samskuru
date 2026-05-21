@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="संस्कुरु app icon">
+  <rect width="512" height="512" rx="112" fill="#FFF3D6"/>
+  <rect x="44" y="44" width="424" height="424" rx="92" fill="#FFFCF5" stroke="#D7BE8C" stroke-width="18"/>
+  <path d="M96 365c58 34 125 51 201 51 42 0 82-5 119-16" fill="none" stroke="#F57C00" stroke-width="20" stroke-linecap="round" opacity=".35"/>
+  <text x="256" y="310" text-anchor="middle" font-family="Noto Serif Devanagari, Noto Sans Devanagari, serif" font-size="176" font-weight="850" fill="#2B1A0E">सं</text>
+  <text x="256" y="370" text-anchor="middle" font-family="Inter, Noto Sans, sans-serif" font-size="34" font-weight="800" fill="#6F4E37">saṃskuru</text>
+</svg>

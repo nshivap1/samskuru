@@ -1,0 +1,18 @@
+{
+  "name": "संस्कुरु · Sandhi 2048",
+  "short_name": "संस्कुरु",
+  "description": "A Devanagari-first Sanskrit sandhi puzzle inspired by 2048.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#FFF9EC",
+  "theme_color": "#FFF3D6",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
