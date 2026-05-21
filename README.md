@@ -43,8 +43,6 @@ The app is configured for Vercel as a static Vite deployment.
 - Node version: `22`
 - Pre-deploy check: `npm run deploy:check`
 
-Set `VITE_ALPHA_FEEDBACK_URL` in Vercel to a Tally, Google Form, Typeform, or other feedback URL. If it is not set, the in-app Feedback button falls back to a mailto link.
-
 Optional analytics are wired for Plausible without adding a runtime dependency. Set `VITE_PLAUSIBLE_DOMAIN` to the deployed alpha domain to enable the script. Leave it empty to ship with no analytics.
 
 This alpha build is intentionally marked `noindex` in metadata and Vercel response headers. Remove that after the app is ready for public discovery.

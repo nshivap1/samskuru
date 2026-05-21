@@ -3,7 +3,6 @@ import {
   Info,
   Lightbulb,
   List,
-  MessageSquareText,
   RotateCcw,
   Settings,
   Undo2,
@@ -42,7 +41,6 @@ const AXIS_DOMINANCE_RATIO = 1.25;
 const MAX_INPUT_QUEUE_DEPTH = 3;
 const SLIDE_MS = 110;
 const POP_MS = 90;
-const ALPHA_FEEDBACK_URL = import.meta.env.VITE_ALPHA_FEEDBACK_URL || "mailto:?subject=संस्कुरु alpha feedback";
 
 type RenderPhase = "stable" | "moving" | "consumed" | "merged-survivor" | "spawning";
 
@@ -594,7 +592,6 @@ export function App() {
         <TrayButton icon={<Lightbulb size={18} />} label="Hint" onClick={showHint} />
         <TrayButton icon={<List size={18} />} label="Log" onClick={() => openConsole("log")} />
         <TrayButton icon={<BookOpen size={18} />} label="Vyākarana" onClick={() => openConsole("rules")} />
-        <TrayLink icon={<MessageSquareText size={18} />} label="Feedback" href={ALPHA_FEEDBACK_URL} />
       </section>
 
       {persisted.preferences.accessibilityControlsOpen && (
@@ -634,15 +631,6 @@ function TrayButton({ icon, label, onClick, disabled = false }: { icon: React.Re
       {icon}
       <span>{label}</span>
     </button>
-  );
-}
-
-function TrayLink({ icon, label, href }: { icon: React.ReactNode; label: string; href: string }) {
-  return (
-    <a className="tray-button" href={href} target="_blank" rel="noreferrer" aria-label={label}>
-      {icon}
-      <span>{label}</span>
-    </a>
   );
 }
 

@@ -82,14 +82,6 @@ describe("App smoke flow", () => {
     expect(screen.getByText(/target-advancing|future-useful|No target-advancing merge|No immediate merge/)).toBeInTheDocument();
   });
 
-  it("exposes an alpha feedback link from the main controls", () => {
-    render(<App />);
-
-    const feedbackLink = screen.getByRole("link", { name: "Feedback" });
-    expect(feedbackLink).toHaveAttribute("href", "mailto:?subject=संस्कुरु alpha feedback");
-    expect(feedbackLink).toHaveAttribute("target", "_blank");
-  });
-
   it("applies the script setting to board tiles and rule examples", () => {
     render(<App />);
 

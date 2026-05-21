@@ -13,8 +13,7 @@ Use Vercel for the first alpha. This repository is a static Vite app: it builds 
    - Output directory: `dist`
    - Install command: `npm ci`
    - Node version: `22`
-4. Add `VITE_ALPHA_FEEDBACK_URL` in Vercel project environment variables.
-5. Optional: set `VITE_PLAUSIBLE_DOMAIN` to enable Plausible analytics. Leave it empty for a no-analytics alpha.
+4. Optional: set `VITE_PLAUSIBLE_DOMAIN` to enable Plausible analytics. Leave it empty for a no-analytics alpha.
 
 ## Before Each Alpha Link Share
 
@@ -30,7 +29,7 @@ Then verify the deployed URL on:
 - Android Chrome
 - Desktop Chrome or Safari
 
-Check swipe movement, keyboard movement, target completion, restart from stuck state, script setting, tile rendering, and the Feedback button.
+Check swipe movement, keyboard movement, target completion, restart from stuck state, script setting, and tile rendering.
 
 ## Alpha Tester Prompt
 
