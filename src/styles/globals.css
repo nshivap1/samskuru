@@ -167,6 +167,8 @@ a { color: inherit; }
 .target-chip .deva-text {
   color: var(--color-brown-900);
   font-size: clamp(1.4rem, 6vw, 2rem);
+  line-height: 1.32;
+  padding-block: 0.05em 0.12em;
   font-weight: 900;
 }
 
@@ -421,13 +423,14 @@ a { color: inherit; }
 
 .tile-label {
   display: block;
-  max-width: calc(100% - 4px);
+  max-width: calc(100% - 10px);
+  padding: 0.05em 2px 0.16em;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: clip;
   hyphens: none;
   word-break: keep-all;
-  line-height: 1.12;
+  line-height: 1.32;
   text-align: center;
   font-family: "Noto Serif Devanagari", "Noto Sans Devanagari", system-ui, sans-serif;
   font-weight: 850;
